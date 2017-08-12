@@ -1,0 +1,71 @@
+<!--
+<div>Item name: {{ item.name }}</div>
+<div>Item quantity: {{ item.quantity }}</div>
+<div>Item description: {{ item.description }}</div>
+-->
+<!--
+<li style="list-style: none; " ng-repeat="item in itemDetail.itemsforcategory">
+
+<div>Item name: {{ item.name }}</div>
+<div>Item id: {{ item.id }}</div>
+<div>Item description: {{ item.description }}</div>
+
+</li>
+-->
+<a ui-sref="categorylist" class="btn btn-primary">Back to Categories</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Item id</th>
+            <th>Item name</th>
+            <th>Short name</th>
+            <th>Description</th>
+            <th>Price(large)</th>
+            <th>Price(small)</th>
+              <th>Large Portion Name</th>
+               <th>Small Portion Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in itemDetail.itemsforcategory">
+            <td> {{ item.id}}</td>
+            <td>{{ item.name }}</td>
+             <td>{{item.short_name}}</td>
+            
+            <td>{{item.description}}</td>
+          
+            <td>{{item.price_large}}</td>
+            <td>{{item.price_small}}</td>
+           
+            <td>{{item.large_portion_name}}</td>
+            <td>{{item.small_portion_name}}</td>
+<!--            <td><button class="btn btn-danger" ng-click="menu.onRemove($index);" >Don't want this one!</button></td>-->
+        </tr>
+        
+    </tbody>
+</table>
+<!--
+//description
+//:
+//"chunks of chicken, breaded and deep-fried with sauce containing orange peels; white meat by request: for pint $1 extra, for large $2 extra"
+//id
+//:
+//1069
+//large_portion_name
+//:
+//null
+//name
+//:
+//"Orange Chicken"
+//price_large
+//:
+//9.75
+//price_small
+//:
+//null
+//short_name
+//:
+//"L1"
+//small_portion_name
+//:
+-->
