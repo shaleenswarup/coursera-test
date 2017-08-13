@@ -26,10 +26,11 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+    margin-left: 9px
 }
     div.items{
          margin: 9px;
-         border: 3px solid black;
+         border: 1px solid black;
             background: darkgray;
 
     }
@@ -147,15 +148,16 @@ p {
     padding-bottom: 12px;
     }
    .heading {
-   text-align: center;
+ text-align: center;
     margin: 0px;
     width: 30%;
     margin-bottom: 9px;
     /* FLOAT: RIGHT; */
     POSITION: RELATIVE;
-    left: 70.5%;
-    top: -3px;
-    border: 3px solid black;
+    left: 70.3%;
+    top: -1px;
+    border: 1px solid black;
     font-size: 1.5em;
+
     }
 
