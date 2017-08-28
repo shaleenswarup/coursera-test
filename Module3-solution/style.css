@@ -1,0 +1,49 @@
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+    font-family: cursive;
+}
+h1 {
+  margin-bottom: 15px;
+    text-align: center;
+}
+.header {
+     font-size: 23px;
+    text-align: center;
+}
+
+#chickendiv{
+        background: darkgray;
+    font-weight: bold;
+}
+.navbar-default {
+    background-color: darkgray;
+    border: 3px solid black;
+    color: black;
+}
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 24px;
+}
+.navbar-nav {
+    margin: 0.5px -15px;
+}
+.nav>li {
+    position: relative;
+    display: block;
+    background: white;
+    border: 1px solid;
+    /* color: blue; */
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 18px;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
